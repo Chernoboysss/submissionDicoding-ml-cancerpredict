@@ -20,19 +20,9 @@ async function postPredictHandler(request, h) {
           "confidenceScore": confidenceScore,
       };
 
-      // await storeData(id, data);
+
+      await storeData(id, data);
       
-      // if (confidenceScore <= 10){
-      //   const response = h.response({
-      //     status: 'fail',
-      //     message : 'Terjadi kesalahan dalam melakukan prediksi'
-      //   });
-      //   response.code(400);
-
-      //   return response ;
-      // }
-
-
       const response = h.response({
           status: 'success',
           message: 'Model is predicted successfully',
