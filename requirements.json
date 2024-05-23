@@ -1,0 +1,6 @@
+{  
+ "backend-service-url": "http://34.128.115.62:3000",
+ "frontend-service-url": "https://submissionmlgc-muhamadfadillah.et.r.appspot.com",
+ "project-id": "submissionmlgc-muhamadfadillah",
+ "bucket-name": "models-ml-prod"
+}
